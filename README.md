@@ -2,7 +2,11 @@
 
 **PhD historian building AI/ML tools for humanities research.**
 
-My work connects historical research questions with multilingual NLP, structured extraction, knowledge graphs, and interactive software. These repositories publish the application and research infrastructure; private records, trained models, and proprietary datasets remain excluded.
+[CV](CV.md) · [CV PDF](CV.pdf) · [Research & Writing](#research--writing) · [Gaming](#gaming) · [Email](mailto:conradcompagna@gmail.com)
+
+My work connects historical research questions with multilingual NLP, structured extraction, knowledge graphs, and interactive software. My research focuses on empire, indigenous agency, and the borderlands linking Burma, China, and northeast India.
+
+## History and NLP
 
 ### [Language Engine](https://github.com/conradcompagna/language-engine)
 
@@ -25,9 +29,66 @@ A historical research pipeline and application for examining power in a Burmese 
 - OCR, translation, structured extraction, source alignment, embeddings, and entity-resolution workflows.
 - 27,129 canonical claims across 1,215 pages, explored through an RDF-backed reader, graph interface, and documented API.
 
+## Research & Writing
+
+My dissertation and three submitted articles examine how imperial power worked through local actors, inherited political practices, and the production of knowledge. The articles below are author manuscripts under review.
+
+### Layered Empire
+
+*Precolonial Continuity, Indigenous Agency, and Hybrid Knowledge on Bengal’s Northeast Frontier, 1790–1810*
+
+PhD dissertation, Birkbeck, University of London.
+
+Examines early colonial rule through the persistence of precolonial political relationships, the agency of indigenous actors, and knowledge produced across languages and communities.
+
+[Read the dissertation (PDF)](research/layered-empire-dissertation.pdf)
+
+### Little Kings, Big Criminals, and Borderlessness on Bengal’s Northern Frontier
+
+Submitted to the *Journal of Borderlands Studies*.
+
+Reconstructs the political landscape behind the Company’s 1792 Welsh expedition, showing how frontier governance responded to mobile military markets, refugees, bandits, and competing local rulers.
+
+[Read the manuscript (PDF)](research/rangpur-borderlands.pdf)
+
+### Empire through the Looking Glass
+
+*Late Eighteenth-Century Colonial Knowledge of Burma*
+
+Submitted to *The Journal of Imperial and Commonwealth History*.
+
+Uses Francis Buchanan’s work on the 1795 Symes embassy to examine how empirical inquiry and diverse local informants produced a multivocal archive within an imperial project.
+
+[Read the manuscript (PDF)](research/empire-through-the-looking-glass.pdf)
+
+### European Subordination and Burmese Realpolitik
+
+*Power Dynamics Across Cultures in the Mid-Eighteenth-Century Irrawaddy Valley*
+
+Submitted to the *Journal of Burma Studies*.
+
+Draws on English, French, and Burmese sources to reconstruct competition among Burmese successor states and European trading companies, examining strategic action across cultural boundaries.
+
+[Read the manuscript (PDF)](research/european-subordination-burmese-realpolitik.pdf)
+
+## Gaming
+
+Alongside my historical research and NLP platforms, I develop tools for game worlds and character interaction.
+
 ### [Modular Tile Kit Studio](https://github.com/conradcompagna/modular-tile-kit-studio)
 
 A native Godot authoring environment for modular isometric worlds.
 
 - Terrain sculpting, material painting, GPU shaders, GLB processing, and voxel-based spatial validation.
 - Canonical board data, undo/redo, image-analysis workflows, and editor regression tests. The unfinished game is not included.
+
+### [Character Fidelity Lab](https://github.com/conradcompagna/character-fidelity-lab)
+
+An evaluation project for AI characters in a game world, using retrieved lore, character rules, and repeatable tests against Google Gemini.
+
+- Semantic retrieval, source citations, manipulation checks, and character-specific instructions.
+- Side-by-side evaluation of character rulebooks, with published test cases and results.
+
+## Contact
+
+[conradcompagna@gmail.com](mailto:conradcompagna@gmail.com) · [Full CV](CV.md)
