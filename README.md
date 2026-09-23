@@ -80,7 +80,7 @@ Alongside my historical research and NLP platforms, I develop tools for game wor
 A native Godot authoring environment for modular isometric worlds.
 
 - Terrain sculpting, material painting, GPU shaders, GLB processing, and voxel-based spatial validation.
-- Canonical board data, undo/redo, image-analysis workflows, and editor regression tests. The unfinished game is not included.
+- Canonical board data, undo/redo, image-analysis workflows, and editor regression tests.
 
 ### [Character Fidelity Lab](https://github.com/conradcompagna/character-fidelity-lab)
 
