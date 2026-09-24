@@ -76,7 +76,7 @@ Draws on English, French, and Burmese sources to reconstruct competition among B
 - [European Imperialism in Asia, 1450–1850 (DOCX)](syllabi/European_Imperialism_in_Asia_Online.docx)
 - [Empire and Nation in Modern China (DOCX)](syllabi/Empire_and_Nation_in_Modern_China.docx)
 - [Imperial Thought in Comparative Perspective (DOCX)](syllabi/Imperial_Thought_in_Comparative_Perspective.docx)
-- [Digital Humanities: Natural Language Processing and Large Language Models for Historical Research (DOCX)](syllabi/DH_Syllabus.docx)
+- [Natural Language Processing and Large Language Models for Historical Research (DOCX)](syllabi/DH_Syllabus.docx)
 
 ## Gaming
 
