@@ -2,7 +2,7 @@
 
 **PhD historian building AI/ML tools for humanities research.**
 
-[CV](CV.md) · [CV PDF](CV.pdf) · [Research & Writing](#research--writing) · [Syllabi](#sample-course-syllabi) · [Gaming](#gaming) · [Email](mailto:conradcompagna@gmail.com)
+[CV](CV.md) · [Models](#research-models) · [CV PDF](CV.pdf) · [Research & Writing](#research--writing) · [Syllabi](#sample-course-syllabi) · [Gaming](#gaming) · [Email](mailto:conradcompagna@gmail.com)
 
 My work connects historical research questions with multilingual NLP, structured extraction, knowledge graphs, and interactive software. My research focuses on empire, indigenous agency, and the borderlands linking Burma, China, and northeast India.
 
@@ -28,6 +28,21 @@ A historical research pipeline and application for examining power in a Burmese 
 
 - OCR, translation, structured extraction, source alignment, embeddings, and entity-resolution workflows.
 - 27,129 canonical claims across 1,215 pages, explored through an RDF-backed reader, graph interface, and documented API.
+
+## Research models
+
+I publish selected trained models on [Hugging Face](https://huggingface.co/conradcompagna),
+with model cards, evaluation results and matching downloads in the application repositories.
+
+| Model | What I developed |
+|---|---|
+| [Arabic clitic tokenizer and expander](https://huggingface.co/conradcompagna/arabic-clitic-tokenizer) | CAMeL teacher supervision over authentic news text, correction rules, transformer tokenization and learned multiword expansion. |
+| [Sanskrit sandhi tokenizer and expander](https://huggingface.co/conradcompagna/sanskrit-sandhi-tokenizer) | DCS-based supervision that recovers underlying word forms from sandhied Sanskrit text. |
+| [Sanskrit interpretive NER](https://huggingface.co/conradcompagna/sanskrit-interpretive-ner) | An 18-category semantic model trained from Gemini-assisted annotations of authentic Sanskrit documents. |
+| [Burmese POS and dependency parser](https://huggingface.co/conradcompagna/burmese-pos-dependency-spacy) | A jointly trained spaCy tok2vec, morphologizer and parser, with reproduced development scores. |
+
+The [Language Engine training record](https://github.com/conradcompagna/language-engine/blob/main/research/models/TRAINING_RESULTS.md)
+documents all 61 selected custom components and distinguishes them from stock models.
 
 ## Research & Writing
 
