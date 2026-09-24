@@ -2,7 +2,7 @@
 
 **PhD historian building AI/ML tools for humanities research.**
 
-[CV](CV.md) · [CV PDF](CV.pdf) · [Research & Writing](#research--writing) · [Gaming](#gaming) · [Email](mailto:conradcompagna@gmail.com)
+[CV](CV.md) · [CV PDF](CV.pdf) · [Research & Writing](#research--writing) · [Syllabi](#sample-course-syllabi) · [Gaming](#gaming) · [Email](mailto:conradcompagna@gmail.com)
 
 My work connects historical research questions with multilingual NLP, structured extraction, knowledge graphs, and interactive software. My research focuses on empire, indigenous agency, and the borderlands linking Burma, China, and northeast India.
 
@@ -71,6 +71,12 @@ Draws on English, French, and Burmese sources to reconstruct competition among B
 
 [Read the manuscript (PDF)](research/european-subordination-burmese-realpolitik.pdf)
 
+## Sample Course Syllabi
+
+- [European Imperialism in Asia, 1450–1850 (DOCX)](syllabi/European_Imperialism_in_Asia_Online.docx)
+- [Empire and Nation in Modern China (DOCX)](syllabi/Empire_and_Nation_in_Modern_China.docx)
+- [Imperial Thought in Comparative Perspective (DOCX)](syllabi/Imperial_Thought_in_Comparative_Perspective.docx)
+
 ## Gaming
 
 Alongside my historical research and NLP platforms, I develop tools for game worlds and character interaction.
@@ -84,7 +90,7 @@ A native Godot authoring environment for modular isometric worlds.
 
 ### [Character Fidelity Lab](https://github.com/conradcompagna/character-fidelity-lab)
 
-An evaluation project for AI characters in a game world, using retrieved lore, character rules, and repeatable tests against Google Gemini.
+An evaluation project using a sample fictional character, retrieved lore, character rules, and repeatable tests against Google Gemini.
 
 - Semantic retrieval, source citations, manipulation checks, and character-specific instructions.
 - Side-by-side evaluation of character rulebooks, with published test cases and results.
