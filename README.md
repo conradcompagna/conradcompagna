@@ -28,7 +28,7 @@ A historical research pipeline and application for examining power in a Burmese 
 
 - OCR, translation, structured extraction, source alignment, embeddings, and entity-resolution workflows.
 - 27,129 canonical claims across 1,215 pages, explored through an RDF-backed reader, graph interface, and documented API.
-- [Published V3 dataset and embeddings](https://doi.org/10.5281/zenodo.22949204), with source sentences, entity-resolution tables and a [data guide](https://github.com/conradcompagna/konbaung-knowledge-graph/tree/main/research/data-release).
+- [Published V3 dataset and embeddings](https://zenodo.org/records/22949204), with source sentences, entity-resolution tables and a [data guide](https://github.com/conradcompagna/konbaung-knowledge-graph/tree/main/research/data-release).
 
 ## Research models
 
