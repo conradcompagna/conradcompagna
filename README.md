@@ -28,7 +28,7 @@ A historical research pipeline and application for examining power in a Burmese 
 
 - OCR, translation, structured extraction, source alignment, embeddings, and entity-resolution workflows.
 - 27,129 canonical claims across 1,215 pages, explored through an RDF-backed reader, graph interface, and documented API.
-- **Provisional LLM-as-judge evaluation:** **96.5% semantic precision** and **92.3% inclusive recall** on available annotations across two 5% tranches (122 pages; 2,808 triples). [Evaluation scores](https://github.com/conradcompagna/konbaung-knowledge-graph#extraction-evaluation).
+- **LLM-judged evaluation:** **96.5% semantic precision** and **92.3% inclusive recall** across two random 5% samples (122 pages; 2,808 triples), with every judgment published. [Evaluation workbook](https://github.com/conradcompagna/konbaung-knowledge-graph/tree/main/research/evaluation).
 - [Published V3 dataset and embeddings](https://zenodo.org/records/22949204), with source sentences, entity-resolution tables and a [data guide](https://github.com/conradcompagna/konbaung-knowledge-graph/tree/main/research/data-release).
 
 ## Agentic Search and Retrieval
@@ -38,7 +38,7 @@ A historical research pipeline and application for examining power in a Burmese 
 Agentic retrieval for Konbaung historical documents: a deployed research tool that assembles source-linked evidence across Royal Orders and the Burmese royal chronicle. [Live search](https://burmeseneuralreader.com/searchspider/)
 
 - **Search and agent engineering:** local BM25 and CPU ONNX embeddings, document-level hybrid ranking, Gemini query planning, batched evidence assessment and cited synthesis. FastAPI/React deployment with authentication, subscriptions and server-side cost controls.
-- **Measured retrieval quality:** **92.6% Hit@10 on 691 targeted English questions** and **96.5% recovery of 2,067 marked question-document pairs across six thematic evidence hunts**. The first 50 results per hunt contain **234/300 reference matches**.
+- **Measured retrieval quality:** six evidence hunts with reference lists of **2,067 relevant documents** (up to 556 per question): **96.5% recovered**, and **234 of the first 300 documents read** are on the reference lists. Known-item retrieval: **92.6% Hit@10** on 691 questions.
 - **Evaluation-driven architecture:** continued reading recovered **173 additional reference matches**, compared with **153** from another query-generation round. Cross-encoder trials informed the final hybrid-ranking design. [Evaluation results and engineering decisions](https://github.com/conradcompagna/searchspider/blob/main/research/README.md).
 
 
