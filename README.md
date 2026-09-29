@@ -39,7 +39,7 @@ Agentic retrieval for Konbaung historical documents: a deployed research tool th
 
 - **Search and agent engineering:** local BM25 and CPU ONNX embeddings, document-level hybrid ranking, Gemini query planning, batched evidence assessment and cited synthesis. FastAPI/React deployment with authentication, subscriptions and server-side cost controls.
 - **Measured retrieval quality:** **92.6% Hit@10 on 691 targeted English questions** and **96.5% recovery of 2,067 marked question-document pairs across six thematic evidence hunts**. The first 50 results per hunt contain **234/300 reference matches**.
-- **Evaluation-driven architecture:** continued reading recovered **173 additional reference matches**, compared with **153** from another query-generation round. Cross-encoder trials informed the final hybrid-ranking design. [Evaluation results and engineering decisions](https://github.com/conradcompagna/searchspider/blob/main/research/EVALUATION.md).
+- **Evaluation-driven architecture:** continued reading recovered **173 additional reference matches**, compared with **153** from another query-generation round. Cross-encoder trials informed the final hybrid-ranking design. [Evaluation results and engineering decisions](https://github.com/conradcompagna/searchspider/blob/main/research/README.md).
 
 
 ## Research models
@@ -54,7 +54,7 @@ with model cards, evaluation results and matching downloads in the application r
 | [Sanskrit interpretive NER](https://huggingface.co/conradcompagna/sanskrit-interpretive-ner) | An 18-category semantic model trained from Gemini-assisted annotations of authentic Sanskrit documents. |
 | [Burmese POS and dependency parser](https://huggingface.co/conradcompagna/burmese-pos-dependency-spacy) | A jointly trained spaCy tok2vec, morphologizer and parser, with reproduced development scores. |
 
-The [Language Engine training record](https://github.com/conradcompagna/language-engine/blob/main/research/models/TRAINING_RESULTS.md)
+The [Language Engine training record](https://github.com/conradcompagna/language-engine/blob/main/research/models/README.md)
 documents all 61 selected custom components and distinguishes them from stock models.
 
 ## Research & Writing
@@ -108,7 +108,7 @@ Draws on English, French, and Burmese sources to reconstruct competition among B
 
 ## Digital Humanities Classroom Labs
 
-- [Accounts of Asian Courts](https://conradcompagna.github.io/courts-in-european-eyes/explorer/)
+- [Kings and Courts in European Eyes](https://conradcompagna.github.io/courts-in-european-eyes/explorer/)
 - [Letters to Networks](https://conradcompagna.github.io/letters-to-networks/explorer/)
 
 ## Gaming
