@@ -28,7 +28,7 @@ Dissertation: [Layered Empire: Precolonial Continuity, Indigenous Agency, and Hy
 
 - [Empire through the Looking Glass: Late Eighteenth-Century Colonial Knowledge of Burma](https://github.com/conradcompagna/conradcompagna/blob/main/research/empire-through-the-looking-glass.pdf) — Journal of Imperial and Commonwealth History, under review.
 
-- An Impossibly King-Centred Universe: Mapping Power and Ideology in the Konbaungset Yazawin through Knowledge Graphs — in preparation. Uses a large-scale graph database of the chronicle’s claims about power to ask what political world emerges when those claims are examined together.
+- “An Impossibly King-Centred Universe: Mapping Power and Ideology in the Konbaungset Yazawin through Knowledge Graphs” — in preparation. Uses a large-scale graph database of the chronicle’s claims about power to ask what political world emerges when those claims are examined together.
 
 - Computational Approaches to Comparative Empire — planned monograph. Uses large-scale LLM tagging and corpus analysis to extract and compare references to highland peoples from the records of European and non-European lowland empires that governed the Southeast Asian massif over centuries. Asks what patterns in imperial representations and practices become visible when these references are brought together across languages, empires and periods.
 
@@ -76,7 +76,7 @@ Dissertation: [Layered Empire: Precolonial Continuity, Indigenous Agency, and Hy
 
 [Live explorer](https://burmeseneuralreader.com/knowledge-graph/vol1/47) · [Code](https://github.com/conradcompagna/konbaung-knowledge-graph) · [Dataset](https://zenodo.org/records/22949204)
 
-- Used large language models to extract 27,129 historical claims bearing on power relations from three volumes of Burmese historical prose. Each claim is stored in an RDF triples database linked back to its underlying source; entities and relations were then grouped into a closed-class set of 52 entity and 81 relation categories in a second pass; a third disambiguation pass used vector embeddings to cluster 23,890 entity labels into 17,658 entities.
+- Used large language models to extract 27,129 historical claims bearing on power relations from three volumes of Burmese historical prose. Each claim is stored in an RDF triples database linked back to its underlying source; entities and relations were then grouped into a closed-class set of axial categories in a second pass; a third disambiguation pass reduced the set of nearly 20,000 entities clustered together using vector embeddings.
 
 - Deployed a searchable database and an interactive graph explorer showing people, places, offices and their relationships, and released the underlying dataset on Zenodo.
 
