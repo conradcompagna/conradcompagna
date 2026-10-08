@@ -1,123 +1,143 @@
 # Conrad Compagna
 
-[Profile](README.md) · [Download CV (PDF)](CV.pdf) · [conradcompagna@gmail.com](mailto:conradcompagna@gmail.com)
+[Download CV (PDF)](CV.pdf)
 
-Nanaimo, British Columbia, Canada
+**Historian of Empire and Asian Borderlands | NLP and LLM Engineering | Research Software Development**
 
-Computational and Digital Humanities | Historian of Empire and Asian Borderlands
+Nanaimo, British Columbia, Canada · [conradcompagna@gmail.com](mailto:conradcompagna@gmail.com) · +1 (250) 619-0788
 
-I am a PhD historian and digital humanities specialist with a content focus on imperial history and the borderlands linking Burma, China and northeast India. I combine source-language scholarship with full-stack software engineering, applied LLM engineering, NLP model training and statistical, network and spatial analysis. My work includes three completed journal manuscripts, all submitted, a fourth computational-history article in preparation, a source-linked knowledge graph built from the Konbaung chronicles, and two shipped NLP reading platforms of which I am the sole founder and developer. I bring approximately seven years of classroom experience and original course design across global, imperial and Asian history, alongside computational approaches to the humanities.
+[github.com/conradcompagna](https://github.com/conradcompagna) · [language-engine.ai](https://language-engine.ai) · [burmeseneuralreader.com](https://burmeseneuralreader.com)
+
+My research focuses on empire and the borderlands linking Burma, China and northeast India, particularly indigenous agency, political authority and colonial knowledge. I have increasingly turned to natural language processing and LLM engineering as tools to support historical research and to answer questions through large-scale analysis of texts. My work includes two neural-network-powered reading platforms covering many low-resource and historical languages; the digitization, machine translation and construction of a knowledge graph from the collected chronicles of Burma’s last historical dynasty; and an agentic retrieval system using vector embeddings and keyword searches orchestrated by an LLM agent over an 11-volume corpus of Burmese historical material. I look forward to further exploring how both classical NLP and transformer-based neural networks can contribute to solving complex problems in the humanities and social sciences.
 
 ## Education
 
-PhD, History | Birkbeck, University of London | 2020–2026
+**PhD, History | Birkbeck, University of London | 2020–2026**
 
-Dissertation: [Layered Empire: Precolonial Continuity, Indigenous Agency, and Hybrid Knowledge on Bengal's Northeast Frontier, 1790–1810](research/layered-empire-dissertation.pdf).
+Dissertation: [Layered Empire: Precolonial Continuity, Indigenous Agency, and Hybrid Knowledge on Bengal’s Northeast Frontier, 1790–1810](https://github.com/conradcompagna/conradcompagna/blob/main/research/layered-empire-dissertation.pdf).
 
-MSc, History | University of Edinburgh | 2018–2020
+**MSc, History | University of Edinburgh | 2018–2020**
 
-BA (Honours), History | University of British Columbia | 2008–2012
+**BA (Honours), History | University of British Columbia | 2008–2012**
 
-## Research and manuscripts
+## Historical research and manuscripts
 
-- [European Subordination and Burmese Realpolitik: Power Dynamics Across Cultures in the Mid-Eighteenth-Century Irrawaddy Valley](research/european-subordination-burmese-realpolitik.pdf) — Journal of Burma Studies, under review.
+- [European Subordination and Burmese Realpolitik: Power Dynamics Across Cultures in the Mid-Eighteenth-Century Irrawaddy Valley](https://github.com/conradcompagna/conradcompagna/blob/main/research/european-subordination-burmese-realpolitik.pdf) — Journal of Burma Studies, under review.
 
-- [Little Kings, Big Criminals, and Borderlessness on Bengal’s Northern Frontier](research/rangpur-borderlands.pdf) — Journal of Borderlands Studies, under review.
+- [Little Kings, Big Criminals, and Borderlessness on Bengal’s Northern Frontier](https://github.com/conradcompagna/conradcompagna/blob/main/research/rangpur-borderlands.pdf) — Journal of Borderlands Studies, under review.
 
-- [Empire through the Looking Glass: Late Eighteenth-Century Colonial Knowledge of Burma](research/empire-through-the-looking-glass.pdf) — Journal of Imperial and Commonwealth History, under review.
+- [Empire through the Looking Glass: Late Eighteenth-Century Colonial Knowledge of Burma](https://github.com/conradcompagna/conradcompagna/blob/main/research/empire-through-the-looking-glass.pdf) — Journal of Imperial and Commonwealth History, under review.
 
-- “The Power of Naming: Tracing Offices, Titles and Patronage in the Konbaung Dynasty through Knowledge Graphs” — in preparation. Combines corpus statistics, network and linguistic analysis, and case studies derived from close reading to examine how the Burmese crown centralized the authority to name and delegate in a setting where it could not establish a monopoly of coercive force.
+- “An Impossibly King-Centred Universe: Mapping Power and Ideology in the Konbaungset Yazawin through Knowledge Graphs” — in preparation. Uses a large-scale graph database of the chronicle’s claims about power to ask what political world emerges when those claims are examined together.
 
-### Computational Approaches to Comparative Empire
+- Computational Approaches to Comparative Empire — planned monograph. Uses large-scale LLM tagging and corpus analysis to extract and compare references to highland peoples from the records of European and non-European lowland empires that governed the Southeast Asian massif over centuries. Asks what patterns in imperial representations and practices become visible when these references are brought together across languages, empires and periods.
 
-Planned monograph extending computational methods to the mountainous highlands between China, Burma and India. Uses large-scale multilingual information extraction and corpus analytics to examine the extent to which European and non-European imperial powers converged on similar methods in their governance and representation of mobile and decentralized highland populations.
+## Computational research and software
 
-## Digital humanities projects
+### Language Engine
 
-### Founder and Developer | language-engine.ai | 2025–present
+*Founder and Developer | 2025–present*
 
-[Source code](https://github.com/conradcompagna/language-engine)
+[Live platform](https://language-engine.ai) · [Code and model documentation](https://github.com/conradcompagna/language-engine)
 
-- Built and shipped a full-stack multilingual NLP reading platform covering more than thirty modern and historical languages, including Japanese, Chinese, Classical Chinese, Korean, Sanskrit, Latin, Greek and Old English.
+- Built a multilingual reading platform to bring document reading, dictionary lookup and grammatical analysis together for 27 modern and historical languages, including everything from Thai, Japanese and Korean to Latin, Ancient Greek, Sanskrit and Classical Chinese.
 
-- Custom-trained transformer models provide tokenization, sentence segmentation, part-of-speech tagging, morphological analysis, lemmatization, dependency parsing and named-entity recognition tailored to each language.
+- Produced and prepared datasets and trained and evaluated neural models to identify word boundaries, lemmas, inflections, and grammatical structure across all supported languages, totaling 61 custom-trained components alongside significant experimentation.
 
-- Created training datasets through synthetic-data generation and human-in-the-loop curation; carried models through training, evaluation and application integration.
+- Quantized the models and rewrote their inference code to run on a CPU.
 
-- Rewrote the Python model harness to bake dozens of language-specific adapters into static graphs, enabling quantization and CPU deployment of a large research model on a commercial web server.
+- Integrated a large bank of dictionaries into an SQLite database served by a compact, browser-side word-matching algorithm operating over extensive, language-specific normalization rules.
 
-- Constructed a multi-gigabyte SQLite lexicon from dozens of digitized dictionaries; implemented a prefix- and suffix-aware dynamic-programming word-matching algorithm and language-specific matching rules.
+- Connected the site to the Gemini API for translation and glossing through structured JSON outputs; wrote a chatbot harness managing context for sustained interaction with Gemini through the site interface.
 
-- Integrated the Gemini API for per-token glossing, sentence translation and contextual analysis, including conversation history storage and reinjection, gloss validation and retries, and token usage monitoring.
+- Wrote script-aware transliteration modules for all non-Latin languages.
 
-- Built script-aware transliteration for non-Latin languages and PDF, Word, e-book and HTML rendering, including custom web-capture tooling.
+- Implemented geometry-preserving, interactive document display for PDFs, Word documents, HTML and multiple e-book formats.
 
-- Owned end-to-end product delivery: user accounts, Stripe billing, analytics, Flask services and deployment using Linux, Gunicorn and Nginx.
+- End-to-end product delivery included user accounts, Stripe billing, analytics, Flask services and deployment using Linux, Gunicorn and Nginx.
 
-### Founder and Developer | burmeseneuralreader.com | 2024–present
+### Burmese Neural Reader
 
-[Source code](https://github.com/conradcompagna/burmese-neural-reader)
+*Founder and Developer | 2024–present*
 
-- Built and shipped a Burmese reading platform using unigram- and bigram-based statistical language modeling for dictionary segmentation of continuous text without word spaces.
+[Live platform](https://burmeseneuralreader.com) · [Code and released parser](https://github.com/conradcompagna/burmese-neural-reader)
 
-- Trained spaCy models on experimental research datasets for part-of-speech tagging, named-entity recognition and dependency parsing; integrated these analyses into the reading interface through pop-ups and visualization.
+- Built a reader for historical Burmese, where text without whitespace and OCR errors complicate word recognition. Segmentation used a statistical language model, which outperformed neural networks trained on modern text.
 
-- Developed extensive logic for normalizing and reconstructing OCR-damaged historical text, including fuzzy dictionary lookup with BK-trees and Levenshtein edit distance.
+- Trained a custom spaCy model suite to identify parts of speech, grammatical forms and relationships between words using experimental research data.
 
-- Assembled a large online digitized Burmese lexicon, including Burmese–Pali dictionaries for historical and religious texts.
+- Used a Levenshtein edit-distance algorithm to perform fuzzy matching on OCR-damaged text inputs with archaic spellings.
 
-### Developer and Researcher | Konbaung Chronicles Project | 2026–present
+- Neural analysis pairs with multiple stacked Burmese and Burmese–Pali dictionaries in the live reader, allowing users to visually see and inspect word meanings, sentence structure and pronunciation on any input text.
 
-[Source code](https://github.com/conradcompagna/konbaung-knowledge-graph)
+### Konbaung Chronicle Knowledge Graph
 
-- Built a domain-specific, LLM-powered document extraction pipeline, digitizing, translating and extracting 27,000 triples from a large historical corpus written in eighteenth-century Burmese.
+*Developer and Researcher | 2026–present*
 
-- Designed an ontology of 52 entity categories and 81 relation categories for a knowledge graph stored in Oxigraph and queried through SPARQL and a Flask backend.
+[Live explorer](https://burmeseneuralreader.com/knowledge-graph/vol1/47) · [Code](https://github.com/conradcompagna/konbaung-knowledge-graph) · [Dataset](https://zenodo.org/records/22949204)
 
-- Engineered domain-specific LLM prompts, structured outputs and layered extraction passes across tens of millions of annotation tokens; retained sentence/page provenance so extracted relations remain inspectable against the source.
+- Used large language models to extract 27,129 historical claims bearing on power relations from three volumes of Burmese historical prose. Each claim is stored in an RDF triples database linked back to its underlying source; entities and relations were then grouped into a closed-class set of axial categories in a second pass; a third disambiguation pass reduced the set of nearly 20,000 entities clustered together using vector embeddings.
 
-- Used Gemini vector embeddings for semantic search, entity-resolution candidate discovery and semantic-community clustering.
+- Deployed a searchable database and an interactive graph explorer showing people, places, offices and their relationships, and released the underlying dataset on Zenodo.
 
-- Built a Graphology/Sigma browser interface for page, range, focused, thematic, volume and corpus-level network exploration, with relations linked to their supporting evidence and data accessible through an API.
+- Analysed the resulting corpus, combining large-scale statistical, network and linguistic analysis with close reading.
 
-- Applied statistical, network and linguistic analysis to the database for an article in preparation on titles, offices and patronage in the dynasty, connecting the engineered database to original research.
+### SearchSpider
 
-## Teaching experience
+*Developer and Researcher*
 
-### Beijing No. 101 High School | Beijing | 2017–2022
+[Live historical search](https://burmeseneuralreader.com/searchspider/) · [Code and evaluation](https://github.com/conradcompagna/searchspider)
 
-- Empire in Asia: From the Mongols to Decolonization; Comparative Politics; and European History: Late Middle Ages to the Present.
+- Built and deployed a research system to find and assess evidence across Burmese royal orders and chronicles.
 
-### Beijing No. 8 High School | Beijing | 2023–2024
+- Keyword and vector searches using a quantized embedding model are orchestrated by an LLM agent that plans searches, assesses retrieved evidence and produces grounded, source-linked provisional answers to research questions while summarizing and tagging hundreds of primary documents that may be of value across a multivolume dataset comprising the majority of historical material on the dynasty by page volume.
 
-- Art History: Prehistory to 1500 CE.
+## Teaching and editorial experience
 
-### New Oriental Foreign Language School | Yangzhou | 2016–2017
+### History and politics teaching
 
-- The Americas in Global Perspective.
+- Beijing No. 101 High School | 2017–2022: Empire in Asia: From the Mongols to Decolonization; Comparative Politics; European History: Late Middle Ages to the Present.
 
-## Editorial experience
+- Beijing No. 8 High School | 2023–2024: Art History: Prehistory to 1500 CE.
+
+- New Oriental Foreign Language School, Yangzhou | 2016–2017: US History.
 
 ### Columnist and Editor | China Daily | 2022–2023
 
-- Wrote monthly history-themed columns; edited and ghostwrote news copy; conducted background research, fact-checking and Mandarin/English translation.
+- Wrote history-themed columns; edited and ghostwrote news; conducted research, fact-checking and Mandarin-to-English translation.
+
+### Prepared course syllabi
+
+- [European Imperialism in Asia, 1450–1850 (Online)](https://github.com/conradcompagna/conradcompagna/blob/main/syllabi/European_Imperialism_in_Asia_Online.docx)
+
+- [Empire and Nation in Modern China](https://github.com/conradcompagna/conradcompagna/blob/main/syllabi/Empire_and_Nation_in_Modern_China.docx)
+
+- [Imperial Thought in Comparative Perspective](https://github.com/conradcompagna/conradcompagna/blob/main/syllabi/Imperial_Thought_in_Comparative_Perspective.docx)
+
+- [Natural Language Processing and Large Language Models for Historical Research](https://github.com/conradcompagna/conradcompagna/blob/main/syllabi/DH_Syllabus.docx)
+
+### Digital humanities teaching materials
+
+- [Kings and Courts in European Eyes](https://github.com/conradcompagna/courts-in-european-eyes): designed a lab using early modern print sources, neural embeddings and close reading to analyze semantic similarities in European representations of Asian courts.
+
+- [Letters to Networks](https://github.com/conradcompagna/letters-to-networks): designed a correspondence-network lab with historical letters, annotation exercises and an interactive explorer teaching students how to build and interpret edge graphs.
+
+
 
 ## Content specialisms
 
-Global and imperial history; South, Southeast and East Asia since 1500; the East India Company; comparative empire; borderlands; indigenous agency; colonial knowledge; digital humanities; natural language processing; computational linguistics.
+Global and imperial history; South, Southeast and East Asia since 1500; the East India Company; comparative empire; borderlands; indigenous agency; colonial knowledge; digital humanities; natural language processing; computational linguistics; LLM engineering.
 
-## Technical expertise
+## Skills and languages
 
-NLP: Hugging Face Transformers; PyTorch; TensorFlow; CUDA; transformer and BiLSTM architectures; corpus construction; synthetic datasets; model training and evaluation; runtime quantization; tokenization; morphological analysis; dependency parsing; named-entity recognition; vector embeddings; semantic search.
+**NLP:** Hugging Face Transformers; PyTorch; TensorFlow; CUDA; neural network architectures; corpus construction; dataset construction; model training and evaluation; runtime quantization; tokenization; morphological analysis; dependency parsing; named-entity recognition; vector embeddings; semantic search; agent orchestration.
 
-Software and data: Python; JavaScript; Node.js; HTML/CSS; Flask; SQLAlchemy; SQLite; REST APIs; Linux; Gunicorn; Nginx; dynamic programming; knowledge graphs; RDF; SPARQL; Oxigraph; corpus analysis; data visualization.
+**Software and data:** Python; JavaScript; Node.js; HTML/CSS; Flask; SQLAlchemy; SQLite; REST APIs; Linux; Gunicorn; Nginx; dynamic programming; knowledge graphs; RDF; SPARQL; Oxigraph; corpus analysis; data visualization.
 
-Applied LLM engineering: Codex; Claude Code; CLI environments; prompt engineering; context-window management; multi-agent orchestration; Git management; review and QA; LLM API integration; structured outputs.
+**Applied LLM engineering:** Codex; Claude Code; CLI environments; prompt engineering; context-window management; multi-agent orchestration; Git management; review and QA; LLM API integration; structured outputs.
 
-## Languages
+### Languages
 
-Mandarin Chinese: full speaking and reading ability. Burmese and French: reading.
+**Mandarin Chinese:** advanced speaking and reading proficiency.
 
-## References
-
-References available on request.
+**Burmese and French:** reading proficiency.
