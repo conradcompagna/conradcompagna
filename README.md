@@ -31,6 +31,13 @@ A historical research pipeline and application for examining power in a Burmese 
 - **LLM-judged evaluation:** **96.5% semantic precision** and **92.3% inclusive recall** across two random 5% samples (122 pages; 2,808 triples), with every judgment published. [Evaluation workbook](https://github.com/conradcompagna/konbaung-knowledge-graph/tree/main/research/evaluation).
 - [Published V3 dataset and embeddings](https://zenodo.org/records/22949204), with source sentences, entity-resolution tables and a [data guide](https://github.com/conradcompagna/konbaung-knowledge-graph/tree/main/research/data-release).
 
+### [Historical Latin Document Analysis](https://github.com/conradcompagna/historical-latin-document-analysis)
+
+Layout analysis and OCR for early printed Latin legal books with surrounding gloss. [Annotation and prediction viewer](https://conradcompagna.github.io/historical-latin-document-analysis/)
+
+- Fine-tuned D-FINE region detection, PERO line detection and OCR, and custom V3 multimodal transformers for region selection and line-role classification.
+- Training datasets, model architecture, training and inference code, weights, and experiments in OCR surprise, layout classification and segmentation.
+
 ## Agentic Search and Retrieval
 
 ### [SearchSpider](https://github.com/conradcompagna/searchspider)
